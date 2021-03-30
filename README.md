@@ -2,9 +2,12 @@
 
 
 Personal full implementation of YOLOv3 for object detection (with TensorFlow v.2.3.1)
+
 Using the TensorFlow's mirrored strategy for multi-worker training (if multiple GPU cores are available!)
+
 Unfortunately, I could only access to one core on Colab, and training took roughly 24 hours to get meaningful detections on VOC 2007.
-(Still an impressive achievement, given it was my first full cycle implementation and only worked on personal laptop 😊😂)
+(Still an impressive achievement, given it was my first full cycle implementation and only worked on a personal laptop 😊😂)
+
 More GPU cores, more time dedications are required for commercializable-level loss metrics.
 
 # For training:
